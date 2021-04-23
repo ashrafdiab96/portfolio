@@ -28,7 +28,7 @@ window.onscroll = function scrollFunction() {
   });
 }
 
-/* Move to top page after click on go to top button */
+/* Move to top page after click on go-to-top button */
 $("#goTopBtn").on("click", function () {
     $('body, html').animate({scrollTop: 0}, 1000);
 });
