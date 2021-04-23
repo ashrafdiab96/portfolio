@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     padding: 0;
 }
- 
+
 body {
     font-size: 14px;
     line-height: 27px;
@@ -627,7 +627,7 @@ a:hover {
 
 /*******************************************************************/
 
-/* Start Go-To-Top Button */
+/* Start Go Top Button */
 .go-top i {
     background-color: #6f42c1;
     color: #fff;
@@ -641,7 +641,7 @@ a:hover {
     z-index: 9999;
     display: none;
 }
-/* End Go-To-Top Button */
+/* End Go Top Button */
 
 /*******************************************************************/
 
