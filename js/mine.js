@@ -26,7 +26,7 @@ window.onscroll = function scrollFunction() {
       $(this).addClass('active').siblings().removeClass('active');
   });
     
-    /* Show and hide go top button depend on vertical distance */
+    /* Show and hide go-to-top button depend on vertical distance */
     if ($(window).scrollTop() <= $("#about").offset().top) {
         $("#goTopBtn").css({'display': 'none'}, 200);
     }
