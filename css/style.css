@@ -194,7 +194,7 @@ ul {
 
 @media (max-width: 991px) {
     .header_area+section, .header_area+row, .header_area+div {
-        margin-top: 117px;
+        /* margin-top: 117px; */
     }
 }
 
@@ -542,6 +542,15 @@ h1, h2, h3, h4, h5, h6 {
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+}
+
+.service_item > img {
+    width: 161px;
+    height: 60px;
+}
+
+.service_item > p {
+    height: 125px;
 }
 
 .service_item:hover {
